@@ -16,18 +16,15 @@ class PlayersList {
         players.forEach(player => {
             playersListDomString += 
                 `<div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-                  <div class="card players">
+                  <div class="card players border-success">
+                    <img class="card-img-top" src="img/players/${player.image}" alt="${player.title}">
                     <div class="card-body">
                       <h4 class="card-title">${player.title}</h4>
-                      <h6 class="card-subtitle">${player.position}</h4>
-                      <img class="card-img-top" src="img/players/${player.image}" 
-                        alt="${player.title}">
-                      <p class="card-text">${player.number}</p>
-                    </div>
-                    <div class="modal-footer"> 
-                      <button class="btn btn-info" data-toggle="modal"
-                        data-target="#playerInfoModal" data-id="${player.id}">Info
-                      </button>
+                      <p class="card-text">${player.position}</p>
+                    </div> 
+                    <div class="card-footer">
+                        <div class="player-icon"><p>${player.number}</p></div>
+                        <button class="btn btn-info" data-toggle="modal" data-target="#playerInfoModal" data-id="${player.id}">Інфо</button>
                     </div>
                   </div>
                 </div>`;
@@ -45,8 +42,7 @@ class PlayersList {
                 .attr('alt', player.title);
             modal.find('.modal-body .card-title').text(player.title);
             modal.find('.modal-body .card-subtitle').text(player.position);
-            modal.find('.modal-body .card-text').text(player.number);
-            
+            modal.find('.modal-footer .card-text').text(player.number);
         });
     }
 }

@@ -26,3 +26,18 @@
 .btn {
     padding: 0.75rem 0.7rem;
 }
+
+.player-icon {
+    background: url(../img/player-icon.png) no-repeat 0 0 transparent;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 700;
+    text-align: center;
+    padding: 0 0;
+    margin-right: 20px;
+    width: 48px;
+    min-width: 48px;
+    height: 45px;
+    line-height: 45px;    
+}

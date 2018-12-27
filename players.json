@@ -1,0 +1,87 @@
+[
+    {
+        "id": "1",
+        "title": "Олег Бойчишин",
+        "image": "boychyshyn.png",
+        "position": "в.о. Головного тренера",
+        "number": ""
+    },
+    {
+        "id": "2",
+        "title": "Богдан Стронціцький",
+        "image": "strontsycky.png",
+        "position": "Тренер воротарів",
+        "number": ""
+    },
+    {
+        "id": "3",
+        "title": "Максим Кучинський",
+        "image": "kuchynsky.png",
+        "position": "Воротар",
+        "number": "1"
+    },
+    {
+        "id": "4",
+        "title": "Микита Шевченко",
+        "image": "schevchenko.png",
+        "position": "Воротар",
+        "number": "30"
+    },
+    {
+        "id": "5",
+        "title": "Андрій Нестеров",
+        "image": "nesterov.png",
+        "position": "Захисник",
+        "number": "5"
+    },
+    {
+        "id": "6",
+        "title": "Папа Гуйє",
+        "image": "guye.png",
+        "position": "Захисник",
+        "number": "19"
+    },
+    {
+        "id": "7",
+        "title": "Андрій Нестеров",
+        "image": "nesterov.png",
+        "position": "Захисник",
+        "number": "5"
+    },
+    {
+        "id": "8",
+        "title": "Артем Федецький",
+        "image": "fedetsky.png",
+        "position": "Захисник",
+        "number": "44"
+    },
+    {
+        "id": "9",
+        "title": "Олексій Ковтун",
+        "image": "kovtun.png",
+        "position": "Захисник",
+        "number": "50"
+    },
+    {
+        "id": "10",
+        "title": "Орест Лебеденко",
+        "image": "lebedenko.png",
+        "position": "Захисник",
+        "number": "54"
+    },
+    {
+        "id": "11",
+        "title": "Денис Мірошніченко",
+        "image": "myroshnychenko.png",
+        "position": "Захисник",
+        "number": "94"
+    },
+    {
+        "id": "12",
+        "title": "Аді Мегреміч",
+        "image": "megremych.png",
+        "position": "Захисник",
+        "number": "99"
+    }
+    
+]

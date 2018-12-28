@@ -12,6 +12,7 @@
 <body>
     
     <header>
+        
         <div class="container">
             <a href="index.html"><img src="img/top-logo.png" alt="лого карпати" /></a>
             <nav class="navbar navbar-expand-lg navbar-light" style="background-color: springgreen;">
@@ -29,12 +30,11 @@
                             <a class="nav-link" href="#tournament-table">Турнірна таблиця</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Розклад</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="#team">Команда</a>
                         </li>
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="#form">Зв'язок</a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -233,11 +233,6 @@
 
     </main>
     
-    <footer class="container">
-      <h2 id="contacts">На зв'язку</h2>
-      <p>десь поруч</p>
-    </footer>
-    
     <!-- Modal Players Info -->
     <div class="modal fade" id="playerInfoModal" tabindex="-1" role="dialog" aria-labelledby="playerInfoLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -262,7 +257,48 @@
             </div>
         </div>
     </div>
-
+    
+    <footer>
+        <div class="container">
+            <section>
+                <p id="form">Хочете отримувати новини та результати ігор ?</p>
+                <form method="POST" action="https://formspree.io/vedernikovmax@gmail.com">
+                    <label>
+                        Ваше ім'я: <input type="text" placeholder="Ваше ім'я"
+                                        name="user-name" required>
+                    </label>
+                    <br>
+                    <label>
+                        Ваш Вік: <input type="number" placeholder="Ваш вік"
+                                        name="user-age" required>
+                    </label>
+                    <br>
+                    <label>
+                        Ваш email:<input type="email" placeholder="Ваш email"
+                                     name="user-email" required>
+                    </label>
+                    <br>
+                    <label>Стать:</label>
+                    <label>
+                        <input type="radio" name="gender" value="male" checked>
+                        чоловіча
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="fimale">
+                        жіноча
+                    </label>
+                    <label>
+                        <input type="radio" name="gender" value="other">
+                        інша
+                    </label>
+                    <br>
+                    <input type="submit">
+                    <input type="reset">
+                </form>
+            </section>
+        </div>
+    </footer>
+    
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
